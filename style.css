@@ -1,0 +1,107 @@
+/*Colors and fonts */
+
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+} 
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+} 
+
+.card-white{
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 2px 10px;
+	padding: 30px;
+	margin-block: 30px;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+
+}
+
+body {
+	background-color: #F3F3E0;
+	color: black;
+	font-family: Newsreader;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+
+}
+
+img{
+	border-radius:50%;
+    width: 150px;
+	image-resolution: 1080p;
+	box-shadow: 2px 3px 2px black;
+}
+
+
+h1, h3{
+  font-family: Markazi Text, serif;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #133E87;
+  text-decoration: underline;
+}
+
+h1 {
+	font-family: serif;
+	font-size: 30px;
+	color: #133E87;
+}
+
+h3{
+	color: #608BC1 ;
+	font-size: 24px;
+}
+
+.btn-blue{
+	background-color: darkolivegreen;
+	color: white;
+	padding: 8px 8px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding-inline: 10px;
+}
+
+.list-inline i{
+	font-size: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: darkolivegreen;
+	font-weight: 800;
+	font-size: 24px;
+	font-family: Markazi Text ;
+
+}
+a:hover{
+	color: black;
+}
